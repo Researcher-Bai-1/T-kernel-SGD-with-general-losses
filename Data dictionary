@@ -1,0 +1,7 @@
+MNIST
+
+Each observation consists of a 28 × 28 grayscale image and an integer digit label from 0 to 9. Original pixel values range from 0 to 255. The code uses torchvision.transforms.ToTensor() to convert images to tensors and scale pixel values to [0, 1], then flattens each image into a 784-dimensional vector. For binary classification, odd digits are assigned label −1 and even digits label +1. Further preprocessing is implemented in general_loss_subsection4.3.ipynb.
+
+GRACE
+
+The four GSM-2 files contain monthly CSR Release 6.0 fully normalized spherical harmonic coefficients of Earth's gravity field for January, April, July, and October 2003. Each file contains a YAML metadata header followed by GRCOF2 records. Detailed variable definitions, coefficient normalization, reference constants, and temporal coverage are provided in the YAML metadata headers of the accompanying GRACE data files.
